@@ -19,14 +19,6 @@ public class Main {
 
 	}
 
-	public static int subtract(int i1, int i2){
-
-	}
-
-	public static int divide(int i1, int i2){
-
-	}
-
 	public static int sum(int i1, int i2){
 		return i1 + i2;
 	}

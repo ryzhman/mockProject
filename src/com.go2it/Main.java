@@ -24,4 +24,8 @@ public class Main {
 	public static int multiply(int i1, int i2) {
 		return i1 * i2;
 	}
+	
+
+	public static void substract(int i1, int i2) {return i1 - i2};
+	public static void divide(int i1, int i2) {return i1 / i2};
 }

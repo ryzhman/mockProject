@@ -1,5 +1,4 @@
-package com.go2it;
-
+package com.se.lessons;
 
 /**
  * This class was created for learningn purposes.
@@ -10,6 +9,11 @@ package com.go2it;
 public class Main {
 
 	public static void main(String[] args) {
+		Lesson1 lesson1 = new Lesson1();
+
+		lesson1.Divider();
+		lesson1.Substrackt();
+
 		System.out.println("Hello calculator program");
 		int sum = sum(1,2);
 		int mmultiply = multiply(4,3);

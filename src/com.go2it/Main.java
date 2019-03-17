@@ -36,7 +36,12 @@ public class Main {
 		return i1 * i2;
 	}
 
+	public static int substruct(int i1, int i2) {
+		return i1 - i2;
+	}
 
-	public static void substract(int i1, int i2) {return i1 - i2};
-	public static void divide(int i1, int i2) {return i1 / i2};
+	public static int divide(int i1, int i2) {
+		return i1 / i2;
+	}
+
 }

@@ -9,11 +9,21 @@ package com.go2it;
  */
 public class Main {
 
+	public
+
 	public static void main(String[] args) {
 		System.out.println("Hello calculator program");
 		int sum = sum(1,2);
 		int mmultiply = multiply(4,3);
 		System.out.println("Sum is: " + sum + "; multiplication result is: " + mmultiply);
+
+	}
+
+	public static int subtract(int i1, int i2){
+
+	}
+
+	public static int divide(int i1, int i2){
 
 	}
 

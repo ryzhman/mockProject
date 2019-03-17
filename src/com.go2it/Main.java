@@ -7,7 +7,17 @@ package com.go2it;
  *
  * @author Alex Ryzhkov
  */
+
 public class Main {
+
+	public void subtract(){
+
+	}
+	public void divide(){
+
+	}
+
+
 
 	public static void main(String[] args) {
 		System.out.println("Hello calculator program");

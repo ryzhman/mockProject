@@ -1,9 +1,9 @@
+package com.go2it;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author Alex Ryzhkov
@@ -12,14 +12,14 @@ public class MainTest {
 
 	@Test
 	@DisplayName("Should show the sum of two positive numbers")
-	public void testSumPositiveNum(){
+	public void testSumPositiveNum() {
 		int sum = Main.sum(1, 2);
 		assertEquals(4, sum);
 	}
 
 	@Test
 	@DisplayName("Should show sum of two negative numbers")
-	public void testSumTwoNegative(){
+	public void testSumTwoNegative() {
 		int sum = Main.sum(-12, -2);
 		assertEquals(-14, sum);
 		assertNotEquals(0, sum);
@@ -27,7 +27,7 @@ public class MainTest {
 
 	@Test
 	@DisplayName("Should show sum of a negative and positive number")
-	public void testSumPosAndNeg(){
+	public void testSumPosAndNeg() {
 		int sum = Main.sum(-1, 2);
 		assertEquals(1, sum);
 		assertTrue(1 == sum);
@@ -35,7 +35,7 @@ public class MainTest {
 
 	@Test
 	@DisplayName("Should show sum of zero and negative number")
-	public void testSumZero(){
+	public void testSumZero() {
 		int sum = Main.sum(0, -123);
 		assertEquals(-123, sum);
 	}

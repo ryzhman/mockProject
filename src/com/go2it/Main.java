@@ -1,3 +1,5 @@
+package com.go2it;
+
 /**
  * @author Alex Ryzhkov
  */
@@ -7,6 +9,6 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		sum(1,2);
+		sum(1, 2);
 	}
 }

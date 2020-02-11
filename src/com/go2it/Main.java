@@ -16,4 +16,8 @@ public class Main {
 	public static void main(String[] args) {
 		sum(1, 2);
 	}
+
+	public static boolean modulusDivision(int i,int j){
+		return i%j==0;
+	}
 }

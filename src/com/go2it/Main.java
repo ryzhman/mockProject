@@ -31,4 +31,8 @@ public static boolean modulusDivision(int i, int j){
         }
         return false;
     }
+
+	public static boolean modulusDivision(int i,int j){
+		return i%j==0;
+	}
 }

@@ -13,10 +13,10 @@ public class Main {
     }
 
 /**@adding two functions by Olga**/
-public static boolean modulusDivision(int i, int j){
-	return i%j==0;
-
-}
+//public static boolean modulusDivision(int i, int j){
+//	return i%j==0;
+// here
+//}
 /*end of Olga's code*/
 
     public static void main(String[] args) {

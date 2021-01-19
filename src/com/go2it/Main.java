@@ -13,6 +13,15 @@ public class Main {
     }
 
     public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+        return i * j;
+        return i * j;
+        return i * j;
+        return i * j;
         return i * j;
         return i * j;
         return i * j;

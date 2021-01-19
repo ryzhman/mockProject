@@ -8,6 +8,10 @@ public class Main {
         return i + j;
     }
 
+    public static int multiply(int i, int j) {
+        return i * j;
+    }
+
     public static void main(String[] args) {
         sum(1, 2);
     }

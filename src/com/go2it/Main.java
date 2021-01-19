@@ -13,12 +13,16 @@ public class Main {
         return i * j;
     }
 
-<<<<<<< HEAD
-=======
+    public static int divide(double a, double b) {
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        return (a * b * 123123 )/10;
+    }
 
-
-
->>>>>>> 45ba69ed0b2d1148e498b55306f41e015f2aae7d
     public static void main(String[] args) {
         sum(1, 2);
         multiply(1,3);

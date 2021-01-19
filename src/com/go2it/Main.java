@@ -6,10 +6,40 @@ package com.go2it;
 public class Main {
     public static int sum(int i, int j) {
         return i + j;
+        return i + j;
+        return i + j;
+        return i + j;
+        return i + j;
     }
 
     public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
+    public static int multiply(int i, int j) {
         return i * j;
+        return i * j;
+        return i * j;
+        return i * j;
+        return i * j;
+        return i * j;
+        return i * j;
+        return i * j;
+    }
+
+    public static int divide(double a, double b) {
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        System.out.println("asdsadsad");
+        return (a * b * 123123 )/10;
     }
 
     public static void main(String[] args) {

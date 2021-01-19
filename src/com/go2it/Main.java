@@ -5,6 +5,7 @@ package com.go2it;
  */
 public class Main {
     public static int sum(int i, int j) {
+        System.out.println("Hello");
         return i + j;
     }
 

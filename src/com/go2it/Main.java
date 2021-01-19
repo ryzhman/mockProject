@@ -5,7 +5,6 @@ package com.go2it;
  */
 public class Main {
     public static int sum(int i, int j) {
-        System.out.println("Hello");
         return i + j;
     }
 
@@ -13,13 +12,12 @@ public class Main {
         return i * j;
     }
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 45ba69ed0b2d1148e498b55306f41e015f2aae7d
     public static void main(String[] args) {
+
+        public static int divide (int x, int y) {
+            int sum = x / y;
+            return sum;
+        }
         sum(1, 2);
         multiply(1,3);
     }
